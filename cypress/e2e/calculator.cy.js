@@ -1,6 +1,6 @@
 describe("계산기 애플리케이션 테스트", () => {
   beforeEach(() => {
-    cy.visit("http://127.0.0.1:5500/index.html");
+    cy.visit("http://127.0.0.1:1234/calculator.html");
   });
 
   it("2개의 숫자에 대해 덧셈이 가능하다.", () => {
