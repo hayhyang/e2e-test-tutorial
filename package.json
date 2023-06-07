@@ -4,9 +4,11 @@
   "description": "<br/> <br/>",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^12.9.0"
+    "cypress": "^12.9.0",
+    "parcel-bundler": "^1.12.5"
   },
   "scripts": {
+    "start": "parcel index.html",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open"
   },
