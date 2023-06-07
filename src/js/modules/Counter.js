@@ -1,4 +1,4 @@
-export default class Counter {
+class Counter {
   constructor() {
     this.count = 0;
     this.$value = document.querySelector("#value");
@@ -40,3 +40,5 @@ export default class Counter {
       .addEventListener("click", this.reset.bind(this));
   }
 }
+
+new Counter();
